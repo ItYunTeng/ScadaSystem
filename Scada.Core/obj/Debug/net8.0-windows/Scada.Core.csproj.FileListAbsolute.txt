@@ -1,0 +1,11 @@
+E:\devproject\ScadaSystem\Scada.Core\bin\debug\net8.0-windows\Scada.Core.deps.json
+E:\devproject\ScadaSystem\Scada.Core\bin\debug\net8.0-windows\Scada.Core.dll
+E:\devproject\ScadaSystem\Scada.Core\bin\debug\net8.0-windows\Scada.Core.pdb
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.AssemblyInfoInputs.cache
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.AssemblyInfo.cs
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.csproj.CoreCompileInputs.cache
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.dll
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\refint\Scada.Core.dll
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\Scada.Core.pdb
+E:\devproject\ScadaSystem\Scada.Core\obj\debug\net8.0-windows\ref\Scada.Core.dll

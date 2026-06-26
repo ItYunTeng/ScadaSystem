@@ -1,0 +1,15 @@
+E:\devproject\ScadaSystem\Scada.Communication\bin\debug\net8.0-windows\Scada.Communication.deps.json
+E:\devproject\ScadaSystem\Scada.Communication\bin\debug\net8.0-windows\Scada.Communication.dll
+E:\devproject\ScadaSystem\Scada.Communication\bin\debug\net8.0-windows\Scada.Communication.pdb
+E:\devproject\ScadaSystem\Scada.Communication\bin\debug\net8.0-windows\Scada.Core.dll
+E:\devproject\ScadaSystem\Scada.Communication\bin\debug\net8.0-windows\Scada.Core.pdb
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.csproj.AssemblyReference.cache
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.GeneratedMSBuildEditorConfig.editorconfig
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.AssemblyInfoInputs.cache
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.AssemblyInfo.cs
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.csproj.CoreCompileInputs.cache
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Co.C9E95F90.Up2Date
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.dll
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\refint\Scada.Communication.dll
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\Scada.Communication.pdb
+E:\devproject\ScadaSystem\Scada.Communication\obj\debug\net8.0-windows\ref\Scada.Communication.dll

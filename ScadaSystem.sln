@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35931.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.Shell", "Scada.Shell\Scada.Shell.csproj", "{F445F3C6-8884-4498-A61B-246F1083BEA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.Core", "Scada.Core\Scada.Core.csproj", "{908153AF-36E7-403E-9EC8-6CFDF8E21BEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.MonitorModule", "Scada.MonitorModule\Scada.MonitorModule.csproj", "{DBF5AFF9-2473-4ACA-9FC7-EED810F7E566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.AlarmModule", "Scada.AlarmModule\Scada.AlarmModule.csproj", "{D8D63ADC-E531-4629-B096-46307E9F1F95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.TrendModule", "Scada.TrendModule\Scada.TrendModule.csproj", "{154C28F2-C765-4EBA-9E3A-740E1B16BC39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.ReportModule", "Scada.ReportModule\Scada.ReportModule.csproj", "{975E814F-6D03-4DE6-ABFC-F908ABE25E9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.ConfigModule", "Scada.ConfigModule\Scada.ConfigModule.csproj", "{762454F1-D0B9-4516-8E64-647BDA6B2124}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.Application", "Scada.Application\Scada.Application.csproj", "{0CBEF3B8-8FC0-41F6-8CFD-7F3BF3F33AE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.Communication", "Scada.Communication\Scada.Communication.csproj", "{8FC35874-FB88-4390-A363-C697A9ABE362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scada.Tests", "Scada.Tests\Scada.Tests.csproj", "{16273080-8E74-4D31-9D43-08F351864D43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Tests", "04-Tests", "{89E5E37F-11BB-458C-97B1-9FA6BC46D7F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Application", "02-Application", "{42DE8E2B-80B3-4ACD-8E72-0B80FFD8249F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Infrastructure", "03-Infrastructure", "{69B1E3A2-C1B3-4356-9D98-B0EC4B74813A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{B672049D-912F-45A1-AF52-DF20F35ACA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Any CPU = debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F445F3C6-8884-4498-A61B-246F1083BEA4}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{F445F3C6-8884-4498-A61B-246F1083BEA4}.debug|Any CPU.Build.0 = debug|Any CPU
+		{908153AF-36E7-403E-9EC8-6CFDF8E21BEA}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{908153AF-36E7-403E-9EC8-6CFDF8E21BEA}.debug|Any CPU.Build.0 = debug|Any CPU
+		{DBF5AFF9-2473-4ACA-9FC7-EED810F7E566}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{DBF5AFF9-2473-4ACA-9FC7-EED810F7E566}.debug|Any CPU.Build.0 = debug|Any CPU
+		{D8D63ADC-E531-4629-B096-46307E9F1F95}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{D8D63ADC-E531-4629-B096-46307E9F1F95}.debug|Any CPU.Build.0 = debug|Any CPU
+		{154C28F2-C765-4EBA-9E3A-740E1B16BC39}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{154C28F2-C765-4EBA-9E3A-740E1B16BC39}.debug|Any CPU.Build.0 = debug|Any CPU
+		{975E814F-6D03-4DE6-ABFC-F908ABE25E9B}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{975E814F-6D03-4DE6-ABFC-F908ABE25E9B}.debug|Any CPU.Build.0 = debug|Any CPU
+		{762454F1-D0B9-4516-8E64-647BDA6B2124}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{762454F1-D0B9-4516-8E64-647BDA6B2124}.debug|Any CPU.Build.0 = debug|Any CPU
+		{0CBEF3B8-8FC0-41F6-8CFD-7F3BF3F33AE3}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{0CBEF3B8-8FC0-41F6-8CFD-7F3BF3F33AE3}.debug|Any CPU.Build.0 = debug|Any CPU
+		{8FC35874-FB88-4390-A363-C697A9ABE362}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{8FC35874-FB88-4390-A363-C697A9ABE362}.debug|Any CPU.Build.0 = debug|Any CPU
+		{16273080-8E74-4D31-9D43-08F351864D43}.debug|Any CPU.ActiveCfg = debug|Any CPU
+		{16273080-8E74-4D31-9D43-08F351864D43}.debug|Any CPU.Build.0 = debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F445F3C6-8884-4498-A61B-246F1083BEA4} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{908153AF-36E7-403E-9EC8-6CFDF8E21BEA} = {69B1E3A2-C1B3-4356-9D98-B0EC4B74813A}
+		{DBF5AFF9-2473-4ACA-9FC7-EED810F7E566} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{D8D63ADC-E531-4629-B096-46307E9F1F95} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{154C28F2-C765-4EBA-9E3A-740E1B16BC39} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{975E814F-6D03-4DE6-ABFC-F908ABE25E9B} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{762454F1-D0B9-4516-8E64-647BDA6B2124} = {B672049D-912F-45A1-AF52-DF20F35ACA57}
+		{0CBEF3B8-8FC0-41F6-8CFD-7F3BF3F33AE3} = {42DE8E2B-80B3-4ACD-8E72-0B80FFD8249F}
+		{8FC35874-FB88-4390-A363-C697A9ABE362} = {69B1E3A2-C1B3-4356-9D98-B0EC4B74813A}
+		{16273080-8E74-4D31-9D43-08F351864D43} = {89E5E37F-11BB-458C-97B1-9FA6BC46D7F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95AF1767-B13F-409A-8A39-E8B7F0748186}
+	EndGlobalSection
+EndGlobal

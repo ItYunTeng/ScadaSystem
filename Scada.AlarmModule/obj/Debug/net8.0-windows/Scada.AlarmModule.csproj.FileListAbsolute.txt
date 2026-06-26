@@ -1,0 +1,16 @@
+E:\devproject\ScadaSystem\Scada.AlarmModule\bin\debug\net8.0-windows\Scada.AlarmModule.deps.json
+E:\devproject\ScadaSystem\Scada.AlarmModule\bin\debug\net8.0-windows\Scada.AlarmModule.dll
+E:\devproject\ScadaSystem\Scada.AlarmModule\bin\debug\net8.0-windows\Scada.AlarmModule.pdb
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.csproj.AssemblyReference.cache
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Views\AlarmView.baml
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Views\AlarmView.g.cs
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule_MarkupCompile.cache
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.g.resources
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.GeneratedMSBuildEditorConfig.editorconfig
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.AssemblyInfoInputs.cache
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.AssemblyInfo.cs
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.csproj.CoreCompileInputs.cache
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.dll
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\refint\Scada.AlarmModule.dll
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\Scada.AlarmModule.pdb
+E:\devproject\ScadaSystem\Scada.AlarmModule\obj\debug\net8.0-windows\ref\Scada.AlarmModule.dll

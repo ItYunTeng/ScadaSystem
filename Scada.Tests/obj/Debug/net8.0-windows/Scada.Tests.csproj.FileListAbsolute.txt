@@ -1,0 +1,11 @@
+E:\devproject\ScadaSystem\Scada.Tests\bin\debug\net8.0-windows\Scada.Tests.deps.json
+E:\devproject\ScadaSystem\Scada.Tests\bin\debug\net8.0-windows\Scada.Tests.dll
+E:\devproject\ScadaSystem\Scada.Tests\bin\debug\net8.0-windows\Scada.Tests.pdb
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.AssemblyInfoInputs.cache
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.AssemblyInfo.cs
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.csproj.CoreCompileInputs.cache
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.dll
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\refint\Scada.Tests.dll
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\Scada.Tests.pdb
+E:\devproject\ScadaSystem\Scada.Tests\obj\debug\net8.0-windows\ref\Scada.Tests.dll
