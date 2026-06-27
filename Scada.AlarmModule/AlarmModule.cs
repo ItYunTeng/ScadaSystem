@@ -8,9 +8,8 @@ public class AlarmModule : IModule
 {
     public void OnInitialized(IContainerProvider containerProvider)
     {
-        //将视图注入到主区域
-        // var regionManager = containerProvider.Resolve<IRegionManager>();
-        // regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.AlarmView));
+        var regionManager = containerProvider.Resolve<IRegionManager>();
+        regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.AlarmView));
     }
     
     public void RegisterTypes(IContainerRegistry containerRegistry)

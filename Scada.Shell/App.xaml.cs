@@ -1,11 +1,10 @@
 using System.Windows;
-using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
 using Scada.Application.Services;
 using Scada.Communication.Drivers;
 using Scada.Core.Models;
-using Scada.Shell.ViewModels;
+using Scada.Shell.Views;
 
 namespace Scada.Shell;
 
@@ -21,7 +20,6 @@ public partial class App
 
     protected override void RegisterTypes(IContainerRegistry containerRegistry)
     {
-        containerRegistry.Register<MainWindowViewModel>();
         // 注册单例服务
         containerRegistry.RegisterSingleton<IDataAcquisitionService, DataAcquisitionService>();
         containerRegistry.RegisterSingleton<IAlarmService, AlarmService>();

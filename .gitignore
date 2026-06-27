@@ -1,0 +1,12 @@
+﻿.idea
+.vs
+**/bin
+**/obj
+
+# JetBrains Rider / ReSharper 用户设置
+*.sln.DotSettings.user
+*.csproj.DotSettings.user
+
+# Visual Studio 用户设置
+*.suo
+*.use

@@ -1,5 +1,6 @@
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Regions;
 
 namespace Scada.ConfigModule;
 
@@ -7,9 +8,8 @@ public class ConfigModule : IModule
 {
     public void OnInitialized(IContainerProvider containerProvider)
     {
-        // 将视图注入到主区域
-        // var regionManager = containerProvider.Resolve<IRegionManager>();
-        // regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.ConfigView));
+        var regionManager = containerProvider.Resolve<IRegionManager>();
+        regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.ConfigView));
     }
     
     public void RegisterTypes(IContainerRegistry containerRegistry)

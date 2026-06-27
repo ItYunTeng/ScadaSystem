@@ -1,0 +1,61 @@
+<Window x:Class="Scada.Shell.Views.MainWindow"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               xmlns:prism="http://prismlibrary.com/"
+               prism:ViewModelLocator.AutoWireViewModel="True"
+               mc:Ignorable="d"
+               Title="工业SCADA 组态系统V1.0"
+               Height="1090" Width="1920"
+               d:DesignHeight="450" d:DesignWidth="800"
+               MinWidth="800"
+               MinHeight="600"
+               WindowState="Maximized"
+               Background="#1E1E1E"
+               Foreground="White"> 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <!-- 顶部导航栏-->
+        <Border Grid.Row="0" Background="#2D2D30" BorderBrush="#3F3F46" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0">
+                <TextBlock Text="⚙SCADA 组态系统" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,30,0"/>
+                <Button Content="实时监控" Command="{Binding NavigateCommand}" CommandParameter="MonitorView"
+                        Style="{DynamicResource NavButtonStyle}"
+                        Margin="5,0"/>
+                <Button Content="报警管理" Command="{Binding NavigateCommand}" CommandParameter="AlarmView"
+                        Style="{DynamicResource NavButtonStyle}"
+                        Margin="5,0"/>
+                <Button Content="趋势曲线" Command="{Binding NavigateCommand}" CommandParameter="TrendView"
+                        Style="{DynamicResource NavButtonStyle}"
+                        Margin="5,0"/>
+                <Button Content="数据报表" Command="{Binding NavigateCommand}" CommandParameter="ReportView"
+                        Style="{DynamicResource NavButtonStyle}"
+                        Margin="5,0"/>
+                <Button Content="系统配置" Command="{Binding NavigateCommand}" CommandParameter="ConfigView"
+                        Style="{DynamicResource NavButtonStyle}"
+                        Margin="5,0"/>
+            </StackPanel>
+        </Border>
+        <!-- 主内容区-->
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="MainRegion" Background="Red"/>
+        <!-- <Button Grid.Row="1" Content="Test" Background="Blue"  Style="{DynamicResource NavButtonStyle}"/> -->
+        <!-- 底部状态栏-->
+        <Border Grid.Row="2" Background="#252526" BorderBrush="#3F3F46" BorderThickness="0,1,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding StatusMessage}" VerticalAlignment="Center" Margin="10,0" FontSize="11"/>
+                <TextBlock Grid.Column="2" Text="{Binding CurrentTime,StringFormat='yyyy-MM-dd HH:mm:ss'}"
+                           VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" FontSize="11"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

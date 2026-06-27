@@ -23,7 +23,7 @@ public class MainWindowViewModel : BindableBase
         set => SetProperty(ref _currentTime, value);
     }
 
-    public DelegateCommand<string> NavigateCommand { get; }
+    public DelegateCommand<string> NavigateCommand { get; private set; }
 
     public MainWindowViewModel(IRegionManager regionManager)
     {
@@ -36,8 +36,6 @@ public class MainWindowViewModel : BindableBase
         };
         timer.Tick += (_, _) => CurrentTime = DateTime.Now;
         timer.Start();
-        // 默认导航
-        Navigate("MonitorView");
     }
 
     private void Navigate(string viewName)
