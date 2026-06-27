@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Scada.Communication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a121f5ce60cdd2798e316d12908b0c9477beabc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abdfcb6b0d29e577c95c8bb471b36f57729e0a37")]
 [assembly: System.Reflection.AssemblyProductAttribute("Scada.Communication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Scada.Communication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

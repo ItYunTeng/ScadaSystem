@@ -8,8 +8,6 @@ public class ReportModule:IModule
 {
     public void OnInitialized(IContainerProvider containerProvider)
     {
-        var regionManager = containerProvider.Resolve<IRegionManager>();
-        regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.ReportView));
     }
     
     public void RegisterTypes(IContainerRegistry containerRegistry)

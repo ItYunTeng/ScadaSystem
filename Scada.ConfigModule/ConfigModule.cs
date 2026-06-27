@@ -8,8 +8,6 @@ public class ConfigModule : IModule
 {
     public void OnInitialized(IContainerProvider containerProvider)
     {
-        var regionManager = containerProvider.Resolve<IRegionManager>();
-        regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.ConfigView));
     }
     
     public void RegisterTypes(IContainerRegistry containerRegistry)

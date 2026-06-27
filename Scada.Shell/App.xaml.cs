@@ -1,6 +1,7 @@
 using System.Windows;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Regions;
 using Scada.Application.Services;
 using Scada.Communication.Drivers;
 using Scada.Core.Models;
@@ -46,6 +47,9 @@ public partial class App
         var acquisitionService = Container.Resolve<IDataAcquisitionService>();
         var cancellationTokenSource = new CancellationTokenSource();
         _ = Task.Run(() => acquisitionService.StartAcquisitionAsync(cancellationTokenSource.Token));
+        
+        var regionManager = Container.Resolve<IRegionManager>();
+        regionManager.RegisterViewWithRegion("MainRegion", "MonitorView");
     }
 
     private void InitializeDemoData()
