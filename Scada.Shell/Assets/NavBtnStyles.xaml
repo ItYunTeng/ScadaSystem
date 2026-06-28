@@ -4,7 +4,7 @@
     <!-- 这里是你缺失的 NavButtonStyle -->
     <Style x:Key="NavButtonStyle" TargetType="Button">
         <!-- 1. 基础外观设置 -->
-        <Setter Property="Background" Value="RosyBrown" />
+        <Setter Property="Background" Value="DimGray" />
         <Setter Property="Foreground" Value="#333333" /> <!-- 字体颜色，深色 -->
         <Setter Property="FontSize" Value="14" />
         <Setter Property="Padding" Value="10,5" />
